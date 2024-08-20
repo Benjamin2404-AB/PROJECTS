@@ -1,0 +1,15 @@
+release/assignpatientroom.o
+release/globals.o
+release/main.o
+release/mainwindow.o
+release/recordvitals.o
+release/registerPatient.o
+release/screen2.o
+release/showdata.o
+release/qrc_res.o
+release/moc_assignpatientroom.o
+release/moc_mainwindow.o
+release/moc_recordvitals.o
+release/moc_registerPatient.o
+release/moc_screen2.o
+release/moc_showdata.o

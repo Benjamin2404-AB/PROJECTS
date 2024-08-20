@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>screen2</class>
+ <widget class="QMainWindow" name="screen2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1058</width>
+    <height>937</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="regHospCard">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>230</y>
+      <width>481</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <widget class="QLineEdit" name="Hospital">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>140</y>
+       <width>331</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:15px;
+font-weight:300;
+color:white;
+border:none;
+border-radius:8px;
+padding:10px;
+background-color: #000004;
+opacity:0.8;
+</string>
+     </property>
+     <property name="placeholderText">
+      <string notr="true">Enter the name of your Hospital</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="HOPDHEADER">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>70</y>
+       <width>261</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: transparent;
+border:none;
+border-radius:5px;
+font-family: Poppins;
+font-weight:500;
+font-size: 30px;
+color:white;
+text-align:Center;
+</string>
+     </property>
+     <property name="text">
+      <string>HOSPITAL OPD</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="numberRooms">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>220</y>
+       <width>331</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:15px;
+font-weight:300;
+color:white;
+border:none;
+border-radius:8px;
+padding:10px;
+background-color: #000004;
+opacity:0.8;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Enter number of rooms</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>300</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+background-color: rgb(19, 100, 114);
+font-family:Poppins;
+font-size:10px;
+</string>
+     </property>
+     <property name="text">
+      <string>Continue</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="myLabel2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>441</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(32,191,223,1), stop:1 rgba(19,71,78,1),stop:3  rgba(2,0,36,1));*/
+
+border-radius:15px;
+border:2px solid rgba(32,191,223,1);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>myLabel2</zorder>
+    <zorder>HOPDHEADER</zorder>
+    <zorder>numberRooms</zorder>
+    <zorder>pushButton</zorder>
+    <zorder>Hospital</zorder>
+   </widget>
+   <widget class="QFrame" name="MainMenu">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>230</y>
+      <width>550</width>
+      <height>440</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <widget class="QLabel" name="Hospital_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>0</y>
+       <width>231</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:12px;
+font-weight:300;
+color:white;
+border:0.4px solid white;
+border-radius:5px;
+padding:3px;
+background-color: rgb(27, 141, 163);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="showPatient">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>240</y>
+       <width>251</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+
+/* CSS */
+
+  background-color: rgb(19, 100, 114);
+  
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Show Patient List</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="showRoomAss">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>290</y>
+       <width>251</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+
+/* CSS */
+
+  background-color: rgb(19, 100, 114);
+  
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Show Room Assignments</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="assiRoom">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>190</y>
+       <width>251</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+
+/* CSS */
+
+  background-color: rgb(19, 100, 114);
+  
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Assign a Room</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="regPatient">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>90</y>
+       <width>251</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+
+/* CSS */
+
+  background-color: rgb(19, 100, 114);
+  
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Register A Patient</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="recPVitals">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>251</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+
+/* CSS */
+
+  background-color: rgb(19, 100, 114);
+  
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Record Patient Vitals</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="menu">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>450</width>
+       <height>380</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(32,191,223,1), stop:1 rgba(19,71,78,1),stop:3  rgba(2,0,36,1));*/
+
+border-radius:15px;
+border:2px solid rgba(32,191,223,1) ;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+font-family:Poppins;
+font-size:15px;
+font-weight:500;
+color:white;
+text-align:center;
+opacity:0.4;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+    </widget>
+    <zorder>menu</zorder>
+    <zorder>Hospital_3</zorder>
+    <zorder>assiRoom</zorder>
+    <zorder>recPVitals</zorder>
+    <zorder>showPatient</zorder>
+    <zorder>showRoomAss</zorder>
+    <zorder>regPatient</zorder>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>100</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:Poppins;
+font-weight:900;
+font-size:50px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>MENU</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1058</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

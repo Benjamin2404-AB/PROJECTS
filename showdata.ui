@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>showData</class>
+ <widget class="QMainWindow" name="showData">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:Poppins;
+font-weight:500;
+font-size:30px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>GET INFO</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="MainMenu">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>140</y>
+      <width>550</width>
+      <height>440</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <widget class="QLabel" name="Hospital_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>0</y>
+       <width>231</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:12px;
+font-weight:300;
+color:white;
+border:0.4px solid white;
+border-radius:5px;
+padding:3px;
+background-color: rgb(27, 141, 163);
+
+
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="showRoomAss">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>180</y>
+       <width>251</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+
+/* CSS */
+
+  background-color: rgb(19, 100, 114);
+  
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Show Room Assignments</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="showPatient">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>120</y>
+       <width>251</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: none;
+border-radius:3px;
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+
+/* CSS */
+
+  background-color: rgb(19, 100, 114);
+  
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family:Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Show Patients</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="menu">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>450</width>
+       <height>380</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(32,191,223,1), stop:1 rgba(19,71,78,1),stop:3  rgba(2,0,36,1));*/
+
+border-radius:15px;
+border:2px solid rgba(32,191,223,1) ;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+font-family:Poppins;
+font-size:15px;
+font-weight:500;
+color:white;
+text-align:center;
+opacity:0.4;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textInteractionFlags">
+      <set>Qt::NoTextInteraction</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backtoMain">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>270</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:10px;</string>
+     </property>
+     <property name="text">
+      <string>Back to Main Menu</string>
+     </property>
+    </widget>
+    <zorder>menu</zorder>
+    <zorder>Hospital_3</zorder>
+    <zorder>showRoomAss</zorder>
+    <zorder>showPatient</zorder>
+    <zorder>backtoMain</zorder>
+   </widget>
+   <widget class="QLabel" name="patientData">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>119</y>
+      <width>561</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(32,191,223,1), stop:1 rgba(19,71,78,1),stop:3  rgba(2,0,36,1));
+
+border-radius:15px;
+border:2px solid rgba(32,191,223,1) ;
+/*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+font-family:Poppins;
+font-size:15px;
+font-weight:500;
+color:white;
+text-align:center;
+opacity:0.4;
+padding:10px;
+margin: 5px 0px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="margin">
+     <number>29</number>
+    </property>
+    <property name="indent">
+     <number>27</number>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backtoMain_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>510</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:Poppins;
+font-size:10px;
+background-color:transparent;
+border:2px solid rgb(26, 138, 159);
+border-radius:2px;</string>
+    </property>
+    <property name="text">
+     <string>Back to Main Menu</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableData">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>120</y>
+      <width>601</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>700</width>
+      <height>490</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:10px;</string>
+    </property>
+    <property name="rowCount">
+     <number>0</number>
+    </property>
+    <property name="columnCount">
+     <number>15</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>9</number>
+    </attribute>
+    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+     <bool>true</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>29</red>
+       <green>27</green>
+       <blue>1</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Age</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>3</red>
+       <green>7</green>
+       <blue>24</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Gender</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>0</red>
+       <green>30</green>
+       <blue>33</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Temperature</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>9</red>
+       <green>10</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Pulse Rate</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>9</red>
+       <green>10</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>RespRate</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>9</red>
+       <green>10</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Systolic BP</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>9</red>
+       <green>10</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Diastolic BP</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>7</pointsize>
+       <italic>true</italic>
+      </font>
+     </property>
+     <property name="background">
+      <color>
+       <red>9</red>
+       <green>10</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+    <column/>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>MainMenu</zorder>
+   <zorder>patientData</zorder>
+   <zorder>tableData</zorder>
+   <zorder>backtoMain_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

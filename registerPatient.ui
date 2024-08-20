@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>screen3</class>
+ <widget class="QMainWindow" name="screen3">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>90</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family:Poppins;
+font-weight:500;
+font-size:30px;
+color:white;</string>
+    </property>
+    <property name="text">
+     <string>REGISTER PATIENT</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="regHospCard">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>150</y>
+      <width>481</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:transparent;</string>
+    </property>
+    <widget class="QLineEdit" name="patientName">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>80</y>
+       <width>331</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:15px;
+font-weight:300;
+color:white;
+border:none;
+border-radius:8px;
+padding:10px;
+background-color: #000004;
+opacity:0.8;
+</string>
+     </property>
+     <property name="placeholderText">
+      <string notr="true">Name of Patient</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="patientAge">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>160</y>
+       <width>331</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:15px;
+font-weight:300;
+color:white;
+border:none;
+border-radius:8px;
+padding:10px;
+background-color: #000004;
+opacity:0.8;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="placeholderText">
+      <string>Age</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="backtoMain">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>320</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:10px;</string>
+     </property>
+     <property name="text">
+      <string>Back to Main Menu</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="myLabel2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>441</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(32,191,223,1), stop:1 rgba(19,71,78,1),stop:3  rgba(2,0,36,1));*/
+
+border-radius:15px;
+border:2px solid rgba(32,191,223,1);
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="regPat">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>250</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:10px;</string>
+     </property>
+     <property name="text">
+      <string>Register Patient</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>310</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:10px;</string>
+     </property>
+     <property name="text">
+      <string>Assign Patient A room</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Male">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>220</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 12px  white Poppins;</string>
+     </property>
+     <property name="text">
+      <string>Male</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="Female">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>220</y>
+       <width>69</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family:Poppins;
+font-size:12px</string>
+     </property>
+     <property name="text">
+      <string>Female</string>
+     </property>
+    </widget>
+    <zorder>myLabel2</zorder>
+    <zorder>patientAge</zorder>
+    <zorder>backtoMain</zorder>
+    <zorder>patientName</zorder>
+    <zorder>regPat</zorder>
+    <zorder>pushButton_3</zorder>
+    <zorder>Male</zorder>
+    <zorder>Female</zorder>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

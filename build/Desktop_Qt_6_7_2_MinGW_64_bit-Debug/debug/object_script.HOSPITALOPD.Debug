@@ -1,0 +1,15 @@
+debug/assignpatientroom.o
+debug/globals.o
+debug/main.o
+debug/mainwindow.o
+debug/recordvitals.o
+debug/registerPatient.o
+debug/screen2.o
+debug/showdata.o
+debug/qrc_res.o
+debug/moc_assignpatientroom.o
+debug/moc_mainwindow.o
+debug/moc_recordvitals.o
+debug/moc_registerPatient.o
+debug/moc_screen2.o
+debug/moc_showdata.o
